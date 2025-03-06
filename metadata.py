@@ -19,7 +19,7 @@ nltk.download('punkt')
 
 # Google Drive API Credentials
 DRIVE_FOLDER_ID = "165p81zX0V5TIzbb4-ZrcKBgj2W3zX0CL"  # Replace with your actual folder ID
-SERVICE_ACCOUNT_FILE = r"C:\Users\sehaj\OneDrive\Desktop\pdf bot\pdfenv\pdf-bot-project-f2dbe8bed928.json" # Replace with your JSON credentials file
+SERVICE_ACCOUNT_FILE = r"C:\Users\sehaj\OneDrive\Desktop\pdf bot\pdfenv\PDF-and-Document-Bot\pdf-bot-project-f2dbe8bed928.json" # Replace with your JSON credentials file
 
 def authenticate_drive():
     creds = service_account.Credentials.from_service_account_file(

@@ -20,7 +20,7 @@ app = FastAPI()
 
 # Google Drive Credentials
 DRIVE_FOLDER_ID = "165p81zX0V5TIzbb4-ZrcKBgj2W3zX0CL"  # 🔹 Replace with your Google Drive folder ID
-SERVICE_ACCOUNT_FILE = r"C:\Users\sehaj\OneDrive\Desktop\pdf bot\pdfenv\pdf-bot-project-f2dbe8bed928.json"  # 🔹 Path to your Google API credentials
+SERVICE_ACCOUNT_FILE = r"C:\Users\sehaj\OneDrive\Desktop\pdf bot\pdfenv\pdf-bot-project-8ca31447cc07.json"  # 🔹 Path to your Google API credentials
 
 # Authenticate Google Drive
 def authenticate_drive():
